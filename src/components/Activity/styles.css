@@ -1,0 +1,38 @@
+.activity-container {
+  background-color: #202028;
+  /* padding: 20px 0px; */
+  border-radius: 10px;
+}
+
+.activity-container:hover {
+  background-color: #1c1c2d;
+}
+
+.chart-header {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chart-header .title {
+  margin: 0px;
+}
+
+.chart-header .select {
+  background: #4c4d52;
+  border-radius: 50px;
+  color: #dcdcde;
+}
+
+.chart-header .select div {
+  padding: 10px 40px 10px 20px;
+}
+
+.chart-header .select svg {
+  color: #dcdcde;
+}
+
+.recharts-surface {
+  stroke: none;
+}

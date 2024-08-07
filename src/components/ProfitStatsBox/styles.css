@@ -1,0 +1,57 @@
+.profit-stats.stats-card {
+  background-color: #202028 !important;
+  color: #ffffff !important;
+  border-radius: 10px !important;
+  /* padding: 20px; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+  transition: background-color 0.3s ease !important;
+}
+
+.profit-stats.stats-card:hover {
+  background-color: #1c1c2d !important;
+}
+
+.profit-stats .stats-header {
+  display: flex;
+  /* align-items: center; */
+  margin-bottom: 8px;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.profit-stats .stats-icon img {
+  /* width: 50px; */
+  /* height: 50px; */
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.profit-stats .stats-title {
+  font-size: 16px;
+  color: #dcdcde;
+}
+
+.profit-stats .stats-body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.profit-stats .stats-value {
+  font-weight: bolder !important;
+  margin: 8px 0px !important;
+  font-size: 50px !important;
+}
+
+.profit-stats .stats-percent {
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  display: flex;
+  align-items: center;
+}
+
+.profit-stats .stats-progress {
+  width: 100%;
+  background-color: #1c1c2d;
+  border-radius: 5px;
+}

@@ -1,0 +1,64 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 9999999;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: #1c1c2d;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-bar .search-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.search-bar input {
+  padding: 15px;
+  padding-left: 40px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2c2c3a;
+  color: #e0e0e0;
+}
+.search-bar input::placeholder {
+  color: #e0e0e0;
+}
+
+.header-menu,
+.header-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-icons .icon svg {
+  padding: 10px;
+  background-color: #44454a;
+  color: #ababad;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.header-icons .icon .badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 10px;
+  height: 10px;
+  background-color: #7292ff;
+  border-radius: 50%;
+}
+
+.profile-icon img {
+  width: 50px;
+  border-radius: 50%;
+}

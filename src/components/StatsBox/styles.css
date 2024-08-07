@@ -1,0 +1,56 @@
+.stats-card {
+  background-color: #202028 !important;
+  color: #ffffff !important;
+  border-radius: 10px !important;
+  /* padding: 20px; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+  transition: background-color 0.3s ease !important;
+}
+
+.stats-card:hover {
+  background-color: #1c1c2d !important;
+}
+
+.stats-header {
+  display: flex;
+  /* align-items: center; */
+  margin-bottom: 8px;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.stats-icon img {
+  /* width: 50px; */
+  /* height: 50px; */
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.stats-title {
+  font-size: 16px;
+  color: #dcdcde;
+}
+
+.stats-body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.stats-value {
+  font-size: 30px !important;
+  font-weight: bolder !important;
+}
+
+.stats-percent {
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  display: flex;
+  align-items: center;
+}
+
+.stats-progress {
+  width: 100%;
+  background-color: #1c1c2d;
+  border-radius: 5px;
+}

@@ -1,0 +1,41 @@
+.recent-orders-card {
+  background-color: #202028 !important;
+  color: #fff !important;
+  border-radius: 10px !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+  transition: background-color 0.3s ease !important;
+  padding: 0px 10px;
+}
+
+.recent-orders-card:hover {
+  background-color: #1c1c2d !important;
+}
+
+.recent-orders-card .table-container {
+  max-height: 560px;
+}
+
+.recent-orders-card .table-container th {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.recent-orders-card .table-container td {
+  color: #e0e0e0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.recent-orders-card .table-container .customer-cell {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+}
+
+.recent-orders-card .table-container .customer-cell img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}

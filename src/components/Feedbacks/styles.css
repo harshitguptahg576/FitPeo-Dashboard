@@ -1,0 +1,45 @@
+.customer-feedback-card {
+  background-color: #202028 !important;
+  color: #fff !important;
+  border-radius: 10px !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+  transition: background-color 0.3s ease !important;
+  padding: 0px 10px;
+}
+
+.customer-feedback-card:hover {
+  background-color: #1c1c2d !important;
+}
+
+.customer-feedback-card .review-list {
+  max-height: 540px;
+  overflow: auto;
+}
+
+.customer-feedback-card li {
+  padding: 0;
+  border-bottom: 1px solid #2c2d35;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.customer-feedback-card li span .profile {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.customer-feedback-card li span .profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.customer-feedback-card li p {
+  color: #9e9fa4;
+  font-size: 16px;
+}
